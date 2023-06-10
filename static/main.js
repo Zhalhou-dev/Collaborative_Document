@@ -25,6 +25,7 @@ $(function () {
     // Write the code here
 
     function syncDrawingData(data) {
+        console.log(data)
         document.getElementById("text_area").value=data.textarea_value
         if (data.text_area_color== 'red'){
            document.getElementById('text_area').style.backgroundColor="red";
